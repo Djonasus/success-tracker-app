@@ -47,7 +47,7 @@ export const data = {
 
 const ChartActivity = () => {
     return (
-        <div style={{marginBlockStart:"40px"}}>
+        <div style={{marginBlockStart:"70px"}}>
             <h1>Ваша активность</h1>
             <Bar options={options} data={data} />
             <p style={{textAlign:"center"}}>Продолжайте в том же духе!</p>

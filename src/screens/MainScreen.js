@@ -1,8 +1,10 @@
 import { Container } from "react-bootstrap"
 import STNavbar from "../components/STNavbar"
-import Separator from "../components/Separator"
 import Welcome from "../components/MainScreen/Welcome"
 import ChartActivity from "../components/MainScreen/ChartActivity"
+import LeaderBoards from "../components/MainScreen/LeaderBoards"
+import Recomendation from "../components/MainScreen/Recomendation"
+import Separator from "../components/Separator"
 
 const MainScreen = () => {
     return (
@@ -11,8 +13,10 @@ const MainScreen = () => {
             <Welcome />
             <Container>
                 <ChartActivity />
+                <LeaderBoards />
+                <Separator distance="80px" />
             </Container>
-            <div style={{marginBlockStart:"2000px"}} />
+            <Recomendation />
         </>
     )
 }

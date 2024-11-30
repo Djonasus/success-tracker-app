@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Голова -->
+  <circle cx="100" cy="50" r="30" fill="#FFD6B5" />
+
+  <!-- Волосы -->
+  <path d="M70 50 Q100 0 130 50 Q110 90 70 90 Z" fill="#2C2C2C" />
+
+  <!-- Тело -->
+  <rect x="70" y="90" width="60" height="100" fill="#00BFFF" rx="10" />
+
+  <!-- Рука -->
+  <rect x="130" y="110" width="20" height="60" fill="#FFD6B5" rx="10" />
+
+  <!-- Телефон -->
+  <rect x="140" y="130" width="10" height="30" fill="#333" rx="2" />
+
+  <!-- Ноги -->
+  <rect x="75" y="190" width="15" height="80" fill="#000" />
+  <rect x="110" y="190" width="15" height="80" fill="#000" />
+
+  <!-- Обувь -->
+  <rect x="75" y="270" width="15" height="10" fill="#555" />
+  <rect x="110" y="270" width="15" height="10" fill="#555" />
+</svg>

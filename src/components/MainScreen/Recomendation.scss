@@ -1,0 +1,18 @@
+.Recomendation {
+    // background-color: rgb(224, 224, 224);
+    padding: 10px 0;
+}
+.Recomendation__continue {
+    max-width: 440px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 15px;
+    background-color: rgba($color: #dedede, $alpha: 0.6);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.Recomendation__continue p {
+    margin: 0;
+    width: auto;
+}
