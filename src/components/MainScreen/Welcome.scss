@@ -1,0 +1,36 @@
+.Welcome {
+    background: rgb(43,40,104);
+    background: linear-gradient(180deg, rgba(43,40,104,1) 0%, rgba(37,37,142,1) 15%, rgba(57,222,255,1) 100%);
+
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Welcome__greetings {
+    // font-size: xx-large;
+    color: rgba($color: #ffffff, $alpha: 0.7);
+    margin: 0;
+}
+
+.Welcome__name {
+    color: rgba($color: black, $alpha: 0.8);
+    // font-size: 6em;
+}
+
+.Welcome__today {
+    background-color: rgba(236, 236, 236, 0.464);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 10px;
+
+    height: 60px;
+    max-width: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Welcome__today p {
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps"; // **Newly added!**
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/utilities/api";
+
+.STNavbar {
+    top: 15px;
+    max-width: 800px;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(236, 236, 236, 0.464);
+    border-radius: 25px;
+    
+}
+.STNavbar p {
+    margin: 0;
+}
+
+@include media-breakpoint-down(sm) {
+    .STNavbar {
+        max-width: 90%;
+    }
+}
