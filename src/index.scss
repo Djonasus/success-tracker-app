@@ -26,3 +26,29 @@
     border-color: black;
     color: white;
 }
+
+.btn-dark {
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    // border-color: black;
+    border: none;
+    color: #000000;
+    border-width: 2px;
+}
+
+.btn-dark:hover {
+    background-color: #000000;
+    color: white;
+    border-color: black;
+}
+
+.border-gray {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(236, 236, 236, 0.464);
+}
+
+@include media-breakpoint-down(sm) {
+    .border-gray {
+        width: 100%;
+    }
+}

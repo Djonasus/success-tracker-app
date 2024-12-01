@@ -3,6 +3,7 @@ import './Welcome.scss'
 import Separator from '../Separator'
 import { MdNotificationImportant } from 'react-icons/md'
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Welcome = () => {
     return (
@@ -14,7 +15,7 @@ const Welcome = () => {
                 <p>29 ноября 2024г.</p>
                 <div className="Welcome__today">
                     <p><MdNotificationImportant width={"60px"} height={"60px"} /> Запишите свой день!</p>
-                    <Button><FaArrowRight /></Button>
+                    <Button as={Link} to="/report"><FaArrowRight /></Button>
                 </div>
             </Container>
         </div>

@@ -17,8 +17,8 @@ const Recomendation = () => {
                     <Button><FaArrowRight/></Button>
                 </div>
                 <div className="d-flex flex-nowrap justify-content-between"><h1>Для вас</h1><Button>Все курсы <FaArrowRight/></Button></div>
-                <Separator distance="15px" />
-                <p>ИИ-тренер <span style={{color:"rgb(242, 213, 134)"}}><SiDependabot /> Максим</span> подготовил несколько статей специально для вас:</p>
+                <Separator distance="45px" />
+                <p>ИИ-тренер <span style={{color:"rgb(242, 213, 134)"}}><SiDependabot /> Максим</span> подобрал несколько статей специально для вас:</p>
                 {/* <Carousel>
                     <Carousel.Item style={{height: 250}}>
                         <Stack direction="horizontal" className="h-100 justify-content-between " gap={3}>
