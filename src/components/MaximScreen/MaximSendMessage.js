@@ -7,7 +7,7 @@ const MaximSendMessage = () => {
         <div className='MaximSendMessage'>
             <Container>
                 <Stack gap={2} direction='horizontal'>
-                    <Form.Control type='text'/>
+                    <Form.Control placeholder='Введите ваше сообщение' type='text'/>
                     <Button><IoIosSend/></Button>
                 </Stack>
             </Container>
