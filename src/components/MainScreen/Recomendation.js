@@ -5,6 +5,7 @@ import { Button, Carousel, Container, Stack, Image } from "react-bootstrap"
 import './Recomendation.scss'
 import { FaArrowRight } from "react-icons/fa"
 import { faker } from "@faker-js/faker"
+import { Link } from "react-router-dom"
 
 const Recomendation = () => {
     return (
@@ -16,7 +17,7 @@ const Recomendation = () => {
                     <p>CSS-верстка для продвинутого уровня</p>
                     <Button><FaArrowRight/></Button>
                 </div>
-                <div className="d-flex flex-nowrap justify-content-between"><h1>Для вас</h1><Button>Все курсы <FaArrowRight/></Button></div>
+                <div className="d-flex flex-nowrap justify-content-between"><h1>Для вас</h1><Button as={Link} to="/courses">Все курсы <FaArrowRight/></Button></div>
                 <Separator distance="45px" />
                 <p>ИИ-тренер <span style={{color:"rgb(242, 213, 134)"}}><SiDependabot /> Максим</span> подобрал несколько статей специально для вас:</p>
                 {/* <Carousel>

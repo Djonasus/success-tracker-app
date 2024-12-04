@@ -14,7 +14,7 @@ const STNavbar = () => {
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="">
                         <Nav.Link as={Link} to="/">Главная</Nav.Link>
-                        <Nav.Link as={Link} to="/">Курсы</Nav.Link>
+                        <Nav.Link as={Link} to="/courses">Курсы</Nav.Link>
                         <Nav.Link href="#link">FAQ</Nav.Link>
                         <Nav.Link as={Link} to="/maxim"><SiDependabot /> Максим</Nav.Link>
                         {/* <Button as={Link} to="/maxim"><SiDependabot /> Максим</Button> */}
