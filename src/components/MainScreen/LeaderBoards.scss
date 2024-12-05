@@ -1,14 +1,38 @@
-.LeaderBoards__winners {
-    max-width: 480px;
-    margin: 0 auto;
-    padding: 10px;
-    margin-top: 60px;
-}
+// .LeaderBoards__winners {
+//     max-width: 480px;
+//     margin: 0 auto;
+//     padding: 10px;
+//     margin-top: 60px;
+// }
 
-.LeaderBoards__medal {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-left: 5px;
-    // color: rgb(242, 213, 134);
+// .LeaderBoards__medal {
+//     width: 10px;
+//     height: 10px;
+//     border-radius: 50%;
+//     margin-left: 5px;
+//     color: rgb(242, 213, 134);
+// }
+.list-group-item{
+    border: 0;
+    // margin: 0 0 0 10px;
+    // border-radius: 25px;
+}
+.list-group-item:last-child{
+    border-radius: 0;
+}
+.list-group{
+    width: 100%;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+}
+.text-center p{
+    margin:0;
+}
+.text-center img{
+    margin: 0 5px;
+}
+.i-am{
+    margin: 10px 0 0 0;
 }
