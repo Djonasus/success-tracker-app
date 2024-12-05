@@ -1,0 +1,17 @@
+.footer{
+    padding: 25px 0;
+    background-color: rgb(54, 54, 54);
+    /* background: linear-gradient(0deg, rgb(56 52 119) 0%, rgb(88 88 223) 15%, rgb(57, 222, 255) 100%); */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.footer-main-block{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #c6c6c6;
+}
