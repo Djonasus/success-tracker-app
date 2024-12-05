@@ -12,112 +12,124 @@ const LeaderBoards = () => {
       <Separator distance="90px" />
       <h1>Лидеры предыдущего месяца</h1>
       <div className="LeaderBoards__winners d-flex justify-content-between">
-        <ListGroup>
-        <div
-        style={{
-          backgroundColor: "gray",
-          width: "100%",
-          height: "1px",
-        //   margin: "0 auto",
-        }}
-      />
+        <ListGroup style={{width: "100%", textAlign: "left"}}>
+        <div style={{
+            backgroundColor: "gray",
+            width: "100%",
+            height: "1px"}} />
           <ListGroup.Item style={{
             backgroundColor: "rgb(255 215 0 / 30%)"
           }}>
-            <div className="text-center">
+            <div className="d-flex flex-nowrap align-items-center" style={{gap: 10}}>
             <span style={{ color: "gray", marginRight: "5px" }}>#1</span>
               <Image width={30} roundedCircle src={faker.image.avatar()} />
               <p
                 className="d-flex flex-nowrap align-items-center"
-                style={{ textAlign: "center" }}
+                style={{ margin: 0 }}
               >
                 
                 {faker.person.firstName()}
-                <span
-                  className="LeaderBoards__medal"
-                  style={{ backgroundColor: "rgb(168, 181, 209)" }}
-                />
               </p>
             </div>
           </ListGroup.Item>
+
           <div
-        style={{
-          backgroundColor: "gray",
-          width: "100%",
-          height: "1px",
-        //   margin: "10px auto",
-        }}
-      />
+            style={{
+              backgroundColor: "gray",
+              width: "100%",
+              height: "1px",
+            //   margin: "10px auto",
+            }}
+          />
           <ListGroup.Item style={{
             backgroundColor: "rgb(94 94 94 / 30%)"
           }}>
-            <div
-              className="text-center"
-            //   style={{ position: "relative", top: "-50px" }}
-            >
-              <span style={{ color: "gray", marginRight: "5px" }}>#2</span>
+            <div className="d-flex flex-nowrap align-items-center" style={{gap: 10}}>
+            <span style={{ color: "gray", marginRight: "5px" }}>#2</span>
               <Image width={30} roundedCircle src={faker.image.avatar()} />
               <p
                 className="d-flex flex-nowrap align-items-center"
-                style={{ textAlign: "center" }}
+                style={{ margin: 0 }}
               >
+                
                 {faker.person.firstName()}
-                <span
-                  className="LeaderBoards__medal"
-                  style={{ backgroundColor: "yellow" }}
-                />
               </p>
             </div>
           </ListGroup.Item>
           <div
-        style={{
-          backgroundColor: "gray",
-          width: "100%",
-          height: "1px",
-        //   margin: "10px auto",
-        }}
+            style={{
+              backgroundColor: "gray",
+              width: "100%",
+              height: "1px",
+            //   margin: "10px auto",
+            }}
       />
           <ListGroup.Item style={{
             backgroundColor: "rgb(255 163 0 / 30%)"
           }}>
-            <div className="text-center">
-              <span style={{ color: "gray", marginRight: "5px" }}>#3</span>
+            <div className="d-flex flex-nowrap align-items-center" style={{gap: 10}}>
+            <span style={{ color: "gray", marginRight: "5px" }}>#3</span>
               <Image width={30} roundedCircle src={faker.image.avatar()} />
               <p
                 className="d-flex flex-nowrap align-items-center"
-                style={{ textAlign: "center" }}
+                style={{ margin: 0 }}
               >
+                
                 {faker.person.firstName()}
-                <span
-                  className="LeaderBoards__medal"
-                  style={{ backgroundColor: "orange" }}
-                />
               </p>
             </div>
           </ListGroup.Item>
+
+          {/* <ListGroup.Item style={{
+            backgroundColor: "rgb(94 94 94 / 30%)"
+          }}>
+            <div className="d-flex flex-nowrap align-items-center" style={{gap: 10}}>
+            <span style={{ color: "gray", marginRight: "5px" }}>#2</span>
+              <Image width={30} roundedCircle src={faker.image.avatar()} />
+              <p
+                className="d-flex flex-nowrap align-items-center"
+                style={{ margin: 0 }}
+              >
+                
+                {faker.person.firstName()}
+              </p>
+            </div>
+          </ListGroup.Item> */}
+          <div
+            style={{
+              backgroundColor: "gray",
+              width: "100%",
+              height: "1px",
+            //   margin: "10px auto",
+            }}
+      />
+          <ListGroup.Item style={{
+            // backgroundColor: "rgb(255 163 0 / 30%)"
+          }}>
+            <div className="d-flex flex-nowrap align-items-center" style={{gap: 10}}>
+            <span style={{ color: "gray", marginRight: "5px" }}>#548</span>
+              <Image width={30} roundedCircle src={faker.image.avatar()} />
+              <p
+                className="d-flex flex-nowrap align-items-center"
+                style={{ margin: 0 }}
+              >
+                Олег (Вы)
+              </p>
+            </div>
+          </ListGroup.Item>
+
+          <div
+            style={{
+              backgroundColor: "gray",
+              width: "100%",
+              height: "1px",
+            //   margin: "10px auto",
+            }}
+          />
+
         </ListGroup>
       </div>
-      <div
-        style={{
-          backgroundColor: "gray",
-          width: "100%",
-          height: "1px",
-        //   margin: "10px auto",
-        }}
-      />
-      <p className="i-am">
-        <span style={{ color: "gray" }}>#564</span>{" "}
-        <Image width={30} roundedCircle src={faker.image.avatar()} /> Олег (Вы){" "}
-        <CiShare1 />
-      </p>
-      <div
-        style={{
-          backgroundColor: "gray",
-          width: "90%",
-          height: "1px",
-          margin: "10px auto",
-        }}
-      />
+      
     </div>
   );
 };

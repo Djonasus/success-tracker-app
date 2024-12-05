@@ -3,6 +3,7 @@ import Separator from "../Separator"
 
 import './CSList.scss'
 import { faker } from "@faker-js/faker"
+import { Link } from "react-router-dom"
 
 const CSList = () => {
     return (
@@ -45,14 +46,14 @@ const CSList = () => {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text> */}
-                            <Button variant="primary">Подробнее</Button>
+                            <Button variant="primary" as={Link} to="/course_detail">Подробнее</Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '100%' }}>
                         <Card.Img variant="top" style={{width: "100%", height: "150px"}} src={faker.image.urlLoremFlickr()} />
                         <Card.Body>
                             <Card.Title>CSS для продвинутых</Card.Title>
-                            <Button variant="primary">Подробнее</Button>
+                            <Button variant="primary" as={Link} to="/course_detail">Подробнее</Button>
                         </Card.Body>
                     </Card>
                 </div>

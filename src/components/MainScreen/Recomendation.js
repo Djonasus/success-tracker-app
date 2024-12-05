@@ -15,7 +15,7 @@ const Recomendation = () => {
                 <div className="Recomendation__continue d-flex flex-nowrap justify-content-between">
                     <Image width={50} height={50} rounded src={faker.image.urlLoremFlickr()} />
                     <p>CSS-верстка для продвинутого уровня</p>
-                    <Button><FaArrowRight/></Button>
+                    <Button as={Link} to="/course_detail"><FaArrowRight/></Button>
                 </div>
                 <div className="d-flex flex-nowrap justify-content-between"><h1>Для вас</h1><Button as={Link} to="/courses">Все курсы <FaArrowRight/></Button></div>
                 <Separator distance="45px" />
@@ -47,14 +47,14 @@ const Recomendation = () => {
                         <Image width="100%" height="100%" rounded src={faker.image.urlLoremFlickr()} />
                         <Carousel.Caption>
                             <p>JS для начинающих</p>
-                            <Button>Читать</Button>
+                            <Button as={Link} to="/course_detail">Читать</Button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{height: 250}}>
                         <Image width="100%" height="100%" rounded src={faker.image.urlLoremFlickr()} />
                         <Carousel.Caption>
                             <p>Основы менеджмента</p>
-                            <Button>Читать</Button>
+                            <Button as={Link} to="/course_detail">Читать</Button>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
