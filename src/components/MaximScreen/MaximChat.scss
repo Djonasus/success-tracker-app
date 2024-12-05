@@ -5,3 +5,21 @@
     padding: 15px 0;
     height: 100%;
 }
+
+.MaximChat__message {
+    float: right;
+    gap: 5px;
+    justify-content: end;
+}
+
+.MaximChat__bubble {
+    background-color: rgb(206, 227, 246);
+    padding: 10px;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+
+    max-width: 80%;
+
+    text-align: right;
+    padding-right: 20px;
+}

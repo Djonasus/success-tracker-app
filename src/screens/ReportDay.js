@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import { faker } from "@faker-js/faker"
 import { useState } from "react"
 import Grade from "../components/ReportDay/Grade"
+import Footer from "../components/MainScreen/Footer"
 
 const ReportDay = () => {
 

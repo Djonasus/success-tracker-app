@@ -1,0 +1,15 @@
+.CourseHeader__Image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.CourseHeader__Back {
+    position: absolute;
+    z-index: 999;
+    top: 90px;
+    left: 5%;
+}

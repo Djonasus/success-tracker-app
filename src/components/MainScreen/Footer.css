@@ -10,8 +10,16 @@
     flex-direction: column;
     align-items: start;
 }
-a{
+.footer-main-block a{
     list-style: none;
     text-decoration: none;
+    color: #c6c6c6;
+}
+
+.footer-main-block h1 {
+    color: white;
+}
+
+.footer-main-block p {
     color: #c6c6c6;
 }
